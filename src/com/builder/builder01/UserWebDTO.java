@@ -7,7 +7,7 @@ package com.builder.builder01;
  */
 public class UserWebDTO implements UserDTO {
 
-private String name;
+	private String name;
 	
 	private String address;
 	

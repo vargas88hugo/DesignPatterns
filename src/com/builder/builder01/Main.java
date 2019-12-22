@@ -26,6 +26,8 @@ public class Main {
 		// The director method creates a new product
 		UserDTO dto = directBuild(builder, user);
 		System.out.println(dto);
+		
+		System.out.println(builder.withFirstName("Hugo"));
 
 	}
 
