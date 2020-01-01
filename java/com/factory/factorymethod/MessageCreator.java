@@ -17,6 +17,7 @@ public abstract class MessageCreator {
 		return msg;
 	}
 
+	// This class is abstract and is define in any subclass of this
 	protected abstract Message createMessage();
 	
 }
