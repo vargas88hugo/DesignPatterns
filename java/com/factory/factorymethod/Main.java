@@ -1,5 +1,7 @@
 package com.factory.factorymethod;
 
+import com.factory.factorymethod.message.Message;
+
 public class Main {
 
 	public static void main(String[] args) {

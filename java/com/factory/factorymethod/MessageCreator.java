@@ -1,5 +1,7 @@
 package com.factory.factorymethod;
 
+import com.factory.factorymethod.message.Message;
+
 /**
  * This is our abstract "creator". 
  * The abstract method createMessage() has to be implemented by

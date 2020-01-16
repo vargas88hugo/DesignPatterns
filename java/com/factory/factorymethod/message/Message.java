@@ -1,4 +1,4 @@
-package com.factory.factorymethod;
+package com.factory.factorymethod.message;
 
 /**
  * This is the super class of the products
