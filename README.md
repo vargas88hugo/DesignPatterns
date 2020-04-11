@@ -1,2 +1,14 @@
 # Design Patterns
-This is my first practice of Design Patterns
+This is my Practice about Design Patterns. Design patterns represent the best practices used by experienced object-oriented software developers and are solutions to general problems.
+
+## Content in Java
+| Name | Description | Type |
+|------|-------------|------|
+| [`Builder`](https://github.com/vargas88hugo/design-patterns/tree/master/java/com/builder) | It is useful when a constructor is very complex or an object is built in multiple steps. An important feature of this approach is the method chaining and the Builder class builds the final object step by step. | Creational |
+| [`Factory`](https://github.com/vargas88hugo/design-patterns/tree/master/java/com/factory) | This pattern works by a delegation in object instantiations to subclasses and it has to add common features in each one. It promotes the loose-coupling by eliminating the need to bind application-specific classes into the code. | Creational |
+| [`Prototype`](https://github.com/vargas88hugo/design-patterns/tree/master/java/com/prototype) | This pattern is used when a creation of an object is expensive and the best way to solve it is by cloning. It is recommended that the object be immutable | Creational |
+| [`Abstract Factory`](https://github.com/vargas88hugo/design-patterns/tree/master/java/com/abstractfactory) | It works around a super-factory which creates other factories. This factory is also called as factory of factories and is common to see a singleton implementation with only one instace changed at runtime. | Creational |
+| [`Singleton`](https://github.com/vargas88hugo/design-patterns/tree/master/java/com/singleton) | This pattern involves a single class which is responsible to create an object while making sure that only single object gets created. There are several implementations but the most common is by making a private constructor.  | Creational |
+| [`Object Pool`](https://github.com/vargas88hugo/design-patterns/tree/master/java/com/objectpool) | If cost of creating instances of a class is very high and you need many such objects throughout your application for short duration then is useful the Object Pool. Pool must handle synchronization issues and reset object states | Creational |
+| [`Adapter`](https://github.com/vargas88hugo/design-patterns/tree/master/java/com/adapter) | It works as a bridge between two incompatible interfaces or classes. This pattern involves a single class which is responsible to join functionalities of independent or incompatible interfaces or classes | Structural |
+| [`Bridge`](https://github.com/vargas88hugo/design-patterns/tree/master/java/com/bridge) | We use this pattern when we want our abstractions and implementations to be decoupled. A good example is the FIFO abstraction with a redefined abstraction Queue, and an implementator such as Linked List with its concrete implementation a Single Linked List. | Structural |
